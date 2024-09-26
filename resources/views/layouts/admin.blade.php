@@ -6,18 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- CSRF Token -->
-  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <meta name="csrf-token" content="">
 
-  <title>{{ config('app.name', 'Laravel') }}</title>
+  <title>Star Wars</title>
 
   <!-- Fontawesome 6 cdn -->
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css'
+  <link rel='stylesheet' href=''
     integrity='sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=='
     crossorigin='anonymous' referrerpolicy='no-referrer' />
 
   <!-- Fonts -->
-  <link rel="dns-prefetch" href="//fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link rel="dns-prefetch" href="">
+  <link href="" rel="stylesheet">
 
   <!-- Usando Vite -->
   @vite(['resources/js/app.js'])
@@ -28,7 +28,7 @@
 
     <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-2 shadow">
       <div class="row justify-content-between">
-        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">BoolPress</a>
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3" href="/">Star Wars</a>
         <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse"
           data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
           aria-label="Toggle navigation">
